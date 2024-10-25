@@ -1,0 +1,103 @@
+.container {
+    position: relative;
+    height: 500px;
+    width: 80px;
+    margin: 50px;
+    margin-bottom: 0;
+    
+
+}
+
+.photo {
+    background-image: url(./image/PERFIL.png); 
+    background-size:contain; 
+    background-repeat: no-repeat; 
+    background-position: left; 
+    position: absolute;
+    top: 0;
+    left: ;
+    height: 350px ;
+    width: 250px;
+
+}
+
+.social-media {
+    background-image: url("./image/REDES SOCIAIS.png");
+  background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    height: 150px;
+    width: 100%;
+}
+
+.name{
+    position: relative;
+    top: -100px;
+    left:50px ;
+    height: 10px;
+    width: 100%;
+    margin-bottom: 0;
+
+}
+    
+.profession{
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: blueviolet; color: white;
+    border-radius: 5px;
+    width: 450px ;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+      
+}
+
+.about_me{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 40px 30px;
+}
+
+.skills{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 40px 30px;
+}
+
+.skills-container {
+    margin: 20px 0; 
+}
+
+.skills-container > div {
+    display: inline-block; 
+    padding: 10px; 
+    margin-right: 10px; 
+    border-radius: 5px; 
+    color: white; 
+    text-transform: uppercase;
+}
+
+
+.skills_1 {
+    background-color:blueviolet; 
+}
+
+.skills_2 {
+    background-color: blueviolet; 
+}
+
+.skills_3 {
+    background-color: blueviolet; 
+}
+
+.skills_4 {
+    background-color: blueviolet; 
+}
+
+
+
+
+
